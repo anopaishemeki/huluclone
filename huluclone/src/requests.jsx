@@ -2,7 +2,7 @@ const API_KEY = '273e591f7e1be67bc986a180a3c235c5';
   
 export default {
 
-    fetchTreading:  `/treading/all/week?api_key=${API_KEY}& language=en-US`,
+    fetchTrending:  `/trending/all/week?api_key=${API_KEY}& language=en-US`,
 
     fetchTopRated:  `/movie/top_rated?api_key=${API_KEY}& language=en-US`,
 

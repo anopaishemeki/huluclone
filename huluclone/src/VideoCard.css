@@ -13,8 +13,18 @@
     
 }
 .videoCard:hover {
-      transform: scale(1.09);       
+      transform: scale(1.09);
+      cursor: pointer;   
 }
+
+.videoCard_stats {
+    display: none;
+}
+
+.videoCard:hover > .videoCard_stats {
+    display: inline;
+}
+
 .videoCard > h2 {
-    padding-top: 10px;
+    padding-top: 10px; 
 }
